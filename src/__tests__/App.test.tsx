@@ -1,4 +1,4 @@
-import "@testing-library/jest-dom";
+import { test, expect } from "bun:test";
 import { render } from "@testing-library/react";
 import App from "../App";
 
